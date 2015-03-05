@@ -1,0 +1,1 @@
+Phoca Cart Compare Module is Joomla! CMS extension. Module which displays comparison list of products.
