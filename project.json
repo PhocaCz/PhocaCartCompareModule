@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartCompareModule",
+	"extensionName": "Phoca Cart Compare Module",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart Compare Module - a Joomla! CMS module which displays selected products of Phoca Cart to display them in comparison list.",
+	"projectUrl": "https://www.phoca.cz/phoca-cart-compare-module",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/118-phoca-cart-compare-module",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/",
+		"Joomla! - Phoca Cart - Phoca Premiere Template Demo": "https://www.phoca.cz/phocacartdemo/premiere/"
+	},
+	"projectColor": "#129ed9"
+}
