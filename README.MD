@@ -26,6 +26,8 @@ Phoca Cart Compare Module - a Joomla! CMS module which displays selected product
 
 
 
+
+
 ## Support
 
 [Phoca Forum](https://www.phoca.cz/forum)
@@ -54,7 +56,7 @@ Phoca Cart Compare Module - a Joomla! CMS module which displays selected product
 
 ## Version
 
-3.4.0
+3.5.0
 
 
 
