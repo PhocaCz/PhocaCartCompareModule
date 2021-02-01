@@ -4,10 +4,10 @@
 		<description><![CDATA[ Phoca Cart Compare Module - a Joomla! CMS module which displays selected products of Phoca Cart to display them in comparison list. ]]></description>
 		<element>mod_phocacart_compare</element>
 		<type>module</type>
-		<version>3.5.4</version>
-		<infourl title="Phoca Cart Compare Module 3.5.4">https://www.phoca.cz/</infourl>
+		<version>3.5.5</version>
+		<infourl title="Phoca Cart Compare Module 3.5.5">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartCompareModule/releases/download/3.5.4/mod_phocacart_compare_v3.5.4.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartCompareModule/releases/download/3.5.5/mod_phocacart_compare_v3.5.5.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>

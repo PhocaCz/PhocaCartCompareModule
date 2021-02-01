@@ -42,5 +42,5 @@ $moduleclass_sfx 			= htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMP
 PhocacartRenderJs::renderAjaxRemoveFromCompare();
 
 $compare	= new PhocacartCompare();
-require(JModuleHelper::getLayoutPath('mod_phocacart_compare'));
+require(JModuleHelper::getLayoutPath('mod_phocacart_compare', $params->get('layout', 'default')));
 ?>

@@ -2,7 +2,7 @@
 
 
 
-![Phoca Cart Compare Module](https://github.com/PhocaCz/PhocaCartCompareModule/blob/master/mod_phocacart_compare.png)
+![Phoca Cart Compare Module](https://github.com/PhocaCz/PhocaCartCompareModule/blob/master/mod_phocacart_compare.png?raw=true)
 
 # Phoca Cart Compare Module
 
@@ -56,7 +56,7 @@ Phoca Cart Compare Module - a Joomla! CMS module which displays selected product
 
 ## Version
 
-3.5.4
+3.5.5
 
 
 
