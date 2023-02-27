@@ -36,7 +36,7 @@ $media->loadSpec();
 $s = PhocacartRenderStyle::getStyles();
 
 $p['module_description']	= $params->get( 'module_description', '' );
-$moduleclass_sfx 			= htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
+$moduleclass_sfx 			= htmlspecialchars((string)$params->get('moduleclass_sfx', ''), ENT_COMPAT, 'UTF-8');
 
 
 PhocacartRenderJs::renderAjaxRemoveFromCompare();
