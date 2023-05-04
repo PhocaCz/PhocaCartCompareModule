@@ -60,7 +60,7 @@ Phoca Cart Compare Module - a Joomla! CMS module which displays selected product
 
 ## Version (Joomla! 4.x)
 
-4.0.6Beta
+4.0.7
 
 
 

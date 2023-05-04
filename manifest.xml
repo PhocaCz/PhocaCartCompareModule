@@ -23,18 +23,19 @@
 		<description><![CDATA[ Phoca Cart Compare Module - a Joomla! CMS module which displays selected products of Phoca Cart to display them in comparison list. ]]></description>
 		<element>mod_phocacart_compare</element>
 		<type>module</type>
-		<version>4.0.0</version>
-		<infourl title="Phoca Cart Compare Module 4.0.0">https://www.phoca.cz/</infourl>
+		<version>4.0.7</version>
+		<infourl title="Phoca Cart Compare Module 4.0.7">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartCompareModule/releases/download/4.0.0/mod_phocacart_compare_v4.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartCompareModule/releases/download/4.0.7/mod_phocacart_compare_v4.0.7.zip</downloadurl>
 		</downloads>
+		<sha512>4db6827fbd33181d0cdd3c35dddc96be1be665e20aa209263ae8267ab69c0239da72ff2abae737a43ef2250f305792d675ae2bef44637626257efc1ae9ed6e09</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="4.[0]"/>
+		<targetplatform name="joomla" version="4.[012]"/>
 		<client>site</client>
 	</update>
 </updates>

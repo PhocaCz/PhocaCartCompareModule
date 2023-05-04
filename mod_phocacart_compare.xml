@@ -2,12 +2,12 @@
 <extension type="module" client="site" method="upgrade" version="4.0">
 	<name>mod_phocacart_compare</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>28/02/2023</creationDate>
+	<creationDate>04/05/2023</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>4.0.6Beta</version>
+	<version>4.0.7</version>
 	<description>MOD_PHOCACART_COMPARE_DESCRIPTION</description>
 	<projectName>PhocaCartCompareModule</projectName>
 
@@ -27,12 +27,11 @@
 			<fieldset name="basic">
 			
 			<field name="module_description" type="editor" buttons="true" hide="pagebreak,readmore" class="inputbox" label="MOD_PHOCACART_COMPARE_FIELD_MODULE_DESCRIPTION_LABEL" filter="safehtml" description="MOD_PHOCACART_COMPARE_FIELD_MODULE_DESCRIPTION_DESC"/>
-			
-			</fieldset>
-<fieldset name="advanced">
-				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
-				<field name="moduleclass_sfx" type="textarea" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" rows="3"/>
-				<field name="cache" type="list" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC" default="1" filter="integer">
+		</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" class="form-select" validate="moduleLayout"/>
+				<field name="moduleclass_sfx" type="textarea" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" rows="3" validate="CssIdentifier"/>
+				<field name="cache" type="list" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC" default="1" filter="integer" validate="options">
 					<option value="1">JGLOBAL_USE_GLOBAL</option>
 					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
 				</field>
@@ -40,7 +39,7 @@
 				<field name="cachemode" type="hidden" default="static">
 					<option value="static"/>
 				</field>
-            </fieldset>			
+            </fieldset>
 		</fields>
 	</config>
 
