@@ -43,7 +43,7 @@ $lang->load('com_phocacart');
 
 $media = PhocacartRenderMedia::getInstance('main');
 $media->loadBase();
-$media->loadBootstrap();
+//$media->loadBootstrap();
 $media->loadSpec();
 $s = PhocacartRenderStyle::getStyles();
 

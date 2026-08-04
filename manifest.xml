@@ -59,4 +59,24 @@
 		<targetplatform name="joomla" version="5\.*"/>
 		<client>site</client>
 	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart Compare Module ]]></name>
+		<description><![CDATA[ Phoca Cart Compare Module - a Joomla! CMS module which displays selected products of Phoca Cart to display them in comparison list. ]]></description>
+		<element>mod_phocacart_compare</element>
+		<type>module</type>
+		<version>6.1.6</version>
+		<infourl title="Phoca Cart Compare Module 6.1.6">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartCompareModule/releases/download/6.1.6/mod_phocacart_compare_v6.1.6.zip</downloadurl>
+		</downloads>
+		<sha512>aeca1afb90e78af5a6b6521ab41d367311a9d9bcb5d68bea46ac32cbb0496a3e74afe54111433d46b69bf480b7bbb185e7e3857de1fc1a8b4724bf8ba395b80f</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="6\.*"/>
+		<client>site</client>
+	</update>
 </updates>
